@@ -1,0 +1,36 @@
+#pagina {
+    border: solid 1px black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgb(204, 215, 223);
+}
+
+#foto {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#foto2 {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#foto3 {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#foto4 {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#foto5 {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}

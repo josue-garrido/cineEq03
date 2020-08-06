@@ -1,0 +1,69 @@
+#cabeza {
+    border: solid 1px black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#logo {
+    width: 150px;
+    float: left;
+}
+
+#table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#th,
+td {
+    padding: 10px;
+}
+
+#th {
+    text-align: left;
+}
+
+.menu-main {
+    display: flex;
+    justify-content: space-between;
+    background: #b92324;
+    border-bottom: 1px solid #29487d;
+    height: 100px;
+}
+
+.menu-main a {
+    flex: 1;
+    font-family: arial;
+    display: flex;
+    color: #FFF;
+    background: #dd2424;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+body,
+html {
+    height: 100%;
+    /*Siempre es necesario cuando trabajamos con alturas*/
+}
+
+#inferior {
+    color: #FFF;
+    background: #5c0f0f;
+    position: fixed;
+    /*El div será ubicado con relación a la pantalla*/
+    left: 0px;
+    /*A la derecha deje un espacio de 0px*/
+    right: 0px;
+    /*A la izquierda deje un espacio de 0px*/
+    bottom: 0px;
+    /*Abajo deje un espacio de 0px*/
+    height: 30px;
+    /*alto del div*/
+    z-index: 0;
+}

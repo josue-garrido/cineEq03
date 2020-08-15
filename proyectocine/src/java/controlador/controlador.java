@@ -40,10 +40,10 @@ public class controlador extends HttpServlet {
         switch (accion){
             case "comprar":
                 totalpagar=0.0;
-                int idp=Integer.parseInt(request.getParameter("id"));
+                idp=Integer.parseInt(request.getParameter("id"));
                 p=pdao.listarId(idp);
                 item=item+1;
-                carrito car=new carrito();
+                car=new carrito();
                 car.setItem(item);
                 car.setId_producto(p.getId());
                 car.setNombre(p.getNombre());
